@@ -1,21 +1,21 @@
 {
-	"title": "Habanero Prototype Boilerplate",
-	"description": "The Habanero Prototype Boilerplate is a simple template to help you get started.",
-	"keywords": "html, JavaScript, CSS, LESS, boilerplate",
+	"title": "Calgary UX",
+	"description": "We are user experience professionals who share a desire to connect with people, showcase the wealth of expertise within our community, and draw inspiration from other UX professionals.",
+	"keywords": "user experience, ux, ia, information architecture, content strategy, cs, interaction design, ixd, service design",
 	"emails": {
-		"support": "support@habaneroconsulting.com"
+		"support": "hello@calgaryux.com"
 	},
 	"twitter": {
-		"card": "product",
-		"site": "@HabaneroConsult"
+		"card": "summary_large_image",
+		"site": "@calgaryux"
 	},
 	"opengraph": {
-		"title": "Habanero Prototype Boilerplate",
+		"title": "Calgary UX",
 		"type": "website",
-		"sitename": "Habanero Prototype Boilerplate",
-		"image": "http://habaneroconsulting.github.io/habanero-prototype-boilerplate/images/opengraph.png",
-		"url": "http://habaneroconsulting.github.io/habanero-prototype-boilerplate",
-		"locale": "en_US"
+		"sitename": "Calgary UX",
+		"image": "http://www.calgaryux.com/images/calgaryux-logo-block.png",
+		"url": "http://www.calgaryux.com",
+		"locale": "en_CA"
 	},
 	"gtm": ""
 }

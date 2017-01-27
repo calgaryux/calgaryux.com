@@ -3,5 +3,21 @@
 @import 'reference/reference';
 
 html {
+	font-family: $font-family-sansserif;
+	font-size: $font-size-medium;
+	line-height: $line-height-body;
 	overflow-y: scroll;
+
+	@include media-breakpoint-up(md) {
+		font-size: $font-size-base;
+	}
+
+	a {
+		color: $calux-red-darker;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }

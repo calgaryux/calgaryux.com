@@ -1,0 +1,33 @@
+// components/_header.scss
+
+@import '../reference/reference';
+
+$block: 'cta';
+
+.#{$block} {
+	margin: 3em auto;
+	text-align: center;
+
+	&__button {
+		background-color: $white;
+		border: 1px solid $calux-red-darker;
+		border-radius: 3px;
+		color: $calux-red-darker;
+		display: inline-block;
+		padding: .75em 2em;
+		text-decoration: none;
+		transition: color, background-color .25s ease 0s;
+
+		&:hover {
+			background-color: $calux-red-darker;
+			color: $white;
+			cursor: pointer;
+			text-decoration: none;
+		}
+	}
+
+	&__microcopy {
+		color: #777;
+		font-size: $font-size-small;
+	}
+}
