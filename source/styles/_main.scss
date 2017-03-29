@@ -21,3 +21,61 @@ html {
 		}
 	}
 }
+
+h1 {
+	line-height: 1.4;
+}
+
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.4;
+	margin: 1.25em 0 .25em;
+}
+
+h2 {
+	&::after {
+		background-color: $calux-red;
+		content: '';
+		display: block;
+		height: 3px;
+		margin-bottom: .5em;
+		margin-top: .5em;
+		width: 4em;
+	}
+}
+
+h2+h3,
+h2+h4,
+h2+h5,
+h3+h4,
+h3+h5,
+h4+h5 {
+	margin-top: 0;
+}
+
+p,
+ul,
+ol {
+	margin-top: .5em;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0 none;
+	display: block;
+    height: 1px;
+	margin: 2em auto;
+    width: 100%;
+
+	&::after {
+		background-color: $calux-red-darker;
+		content: '';
+		display: block;
+		//float: right;
+		height: 1px;
+		margin: 0 auto;
+		width: 1em;
+	}
+}

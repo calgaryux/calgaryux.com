@@ -19,6 +19,7 @@ $block: 'header';
 
 		@include media-breakpoint-up(lg) {
 			background-attachment: fixed;
+			background-size: 100%;
 			height: 150px;
 		}
 	}
@@ -29,6 +30,7 @@ $block: 'header';
 		background-size: 100px 100px;
 		border: 2px solid $white;
 		border-radius: 2px;
+		display: block;
 		height: 100px;
 		margin: -35px auto 40px;
 		width: 100px;

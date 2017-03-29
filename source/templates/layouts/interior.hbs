@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{#if norobots}}
+		<meta name="robots" content="noindex,nofollow">
+	{{/if}}
 
 	{{> head-opengraph }}
 
@@ -19,7 +22,15 @@
 
 		{{> body-header }}
 
-		{% body %}
+		<div class="row">
+			<div class="col-xs-22 col-xs-push-1 col-sm-20 col-sm-push-2 col-md-18 col-md-push-3 col-lg-16 col-lg-push-4">
+				{{#if title}}
+					<h1>{{title}}</h1>
+				{{/if}}
+
+				{% body %}
+			</div>
+		</div>
 
 		{{> body-footer }}
 

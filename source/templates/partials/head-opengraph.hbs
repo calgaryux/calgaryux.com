@@ -1,6 +1,5 @@
-{{#if site.title}}
-<title>{{ site.title }}</title>
-{{/if}}
+
+<title>{{#if title}}{{ title }}{{/if}}{{#if site.title}}{{#if title}} | {{/if}}{{ site.title }}{{/if}}</title>
 
 {{#if site.description}}
 <meta name="description" content="{{ site.description }}" />
@@ -8,6 +7,10 @@
 
 
 {{!-- Twitter Card data --}}
+
+{{#if site.title}}
+<meta name="twitter:title" value="{{#if title}}{{ title }}{{/if}}{{#if site.title}}{{#if title}} | {{/if}}{{ site.title }}{{/if}}" />
+{{/if}}
 
 {{#if site.twitter.card}}
 <meta name="twitter:card" value="{{ site.twitter.card }}" />
@@ -21,11 +24,19 @@
 <meta name="twitter:image:src" content="{{ site.opengraph.image }}" />
 {{/if}}
 
+{{#if site.description}}
+<meta name="twitter:description" content="{{ site.description }}" />
+{{/if}}
+
 
 {{!-- Open Graph data --}}
 
-{{#if site.opengraph.title}}
-<meta property="og:title" content="{{ site.opengraph.title }}" />
+{{#if site.title}}
+<meta property="og:title" content="{{#if title}}{{ title }}{{/if}}{{#if site.title}}{{#if title}} | {{/if}}{{ site.title }}{{/if}}" />
+{{/if}}
+
+{{#if site.description}}
+<meta property="og:description" content="{{ site.description }}" />
 {{/if}}
 
 {{#if site.opengraph.type}}
@@ -47,3 +58,12 @@
 {{#if site.opengraph.locale}}
 <meta property="og:locale" content="{{ site.opengraph.locale }}" />
 {{/if}}
+
+{{#if site.opengraph.appid}}
+<meta property="fb:app_id" content="{{ site.opengraph.appid }}" />
+{{/if}}
+
+
+{{!-- #if site.canonicalroot }}
+	<link rel="canonical" href="{{ site.canonicalroot }}/{{ dirname }}/{{ filename }}" />
+{{/if--}}

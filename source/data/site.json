@@ -1,21 +1,27 @@
 {
 	"title": "Calgary UX",
-	"description": "We are user experience professionals who share a desire to connect with people, showcase the wealth of expertise within our community, and draw inspiration from other UX professionals.",
+	"description": "Calgary UX aims to inspire and connect user experience professionals across all disciplines and all industries in Calgary.",
 	"keywords": "user experience, ux, ia, information architecture, content strategy, cs, interaction design, ixd, service design",
 	"emails": {
-		"support": "hello@calgaryux.com"
+		"support": "info@calgaryux.com"
 	},
 	"twitter": {
-		"card": "summary_large_image",
+		"card": "summary",
 		"site": "@calgaryux"
 	},
 	"opengraph": {
-		"title": "Calgary UX",
 		"type": "website",
 		"sitename": "Calgary UX",
-		"image": "http://www.calgaryux.com/images/calgaryux-logo-block.png",
-		"url": "http://www.calgaryux.com",
-		"locale": "en_CA"
+		"image": "https://calgaryux.com/images/calgaryux-logo-block.png",
+		"url": "https://calgaryux.com",
+		"locale": "en_US",
+		"appid": "249643311490"
 	},
-	"gtm": ""
+	"canonicalroot": "https://calgaryux.com",
+	"gtm": "GTM-KJDGJX8",
+	"emails": {
+		"sponsorship": "sponsors@calgaryux.com",
+		"info": "info@calgaryux.com"
+	},
+	"production": true
 }
