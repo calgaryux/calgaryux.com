@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+# Handle 404s
+ErrorDocument 404 /404.html
+
+# Redirect all insecure requests
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
+</IfModule>

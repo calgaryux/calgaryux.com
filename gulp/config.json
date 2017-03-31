@@ -28,6 +28,7 @@
 		"production": [
 			"**/CNAME",
 			"**/*.{config,html,ico,png,txt,xml}",
+			"**/.htaccess",
 			"images/**/*",
 			"styles/{fonts,images}/**/*"
 		]
