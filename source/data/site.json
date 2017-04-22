@@ -2,9 +2,6 @@
 	"title": "Calgary UX",
 	"description": "Calgary UX aims to inspire and connect user experience professionals across all disciplines and all industries in Calgary.",
 	"keywords": "user experience, ux, ia, information architecture, content strategy, cs, interaction design, ixd, service design",
-	"emails": {
-		"support": "info@calgaryux.com"
-	},
 	"twitter": {
 		"card": "summary",
 		"site": "@calgaryux"
