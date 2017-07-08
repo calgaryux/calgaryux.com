@@ -3,9 +3,10 @@ title: Annual Sponsorship Opportunities
 layout: interior
 sponsorship: $500+
 showDetails: true
-date: April 20, 2017
-time: 6:30pm - 8:00pm
-venue: Venue TBD
+date: May 18, 2017
+time: 6:00pm - 8:00pm
+venue: ATB Entrepreneur Centre
+venueLink: https://www.atbentrepreneurcentre.com/calgary/
 projectedAttendance: ~50
 topic: Prototyping tools, tips and tricks
 norobots: false
@@ -31,7 +32,11 @@ At Calgary UX, we're building a diverse community of user experience professiona
 #### Next event
 **{{topic}}**
 {{date}} &mdash; {{time}}
-{{venue}}
+{{#if venueLink}}
+	[{{venue}}]({{venueLink}})
+{{else}}
+	{{venue}}
+{{/if}}
 {{/markdown}}
 		{{/if}}
 	</div>
