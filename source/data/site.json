@@ -20,5 +20,5 @@
 		"sponsorship": "sponsors@calgaryux.com",
 		"info": "info@calgaryux.com"
 	},
-	"production": false
+	"production": true
 }
