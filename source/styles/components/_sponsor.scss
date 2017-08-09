@@ -1,0 +1,18 @@
+// components/_header.scss
+
+@import '../reference/reference';
+
+$block: 'sponsor';
+
+.#{$block} {
+    text-align: left;
+    margin-bottom: 2em;
+    
+    & > a > img {
+        max-width: 100%;
+    }
+}
+
+.#{block}-group {
+    
+}

@@ -29,7 +29,7 @@ At Calgary UX, we're building a diverse community of user experience professiona
 	<div class="col-xs-24 col-md-12">
 		{{#if showDetails }}
 {{#markdown}}
-#### Next event
+#### Last event
 **{{topic}}**
 {{date}} &mdash; {{time}}
 {{#if venueLink}}
@@ -93,8 +93,12 @@ We're always looking for the next great company to sponsor our community. Take a
 		We look forward to partnering with you!
 	</p>
 </div>
+
 {{#markdown}}
 -----
+#### Current community sponsors
+
+{{> current-sponsors }}
 
 #### Past sponsors
 
