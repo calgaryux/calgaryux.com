@@ -30,4 +30,8 @@ $block: 'cta';
 		color: #777;
 		font-size: $font-size-small;
 	}
+
+    &--left {
+        text-align: left;
+    }
 }

@@ -6,6 +6,7 @@ $block: 'sponsor';
 
 .#{$block} {
     margin-bottom: 2em;
+
     & > a > img {
         max-width: 100%;
     }
