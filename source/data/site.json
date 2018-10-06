@@ -20,5 +20,10 @@
 		"sponsorship": "sponsors@calgaryux.com",
 		"info": "info@calgaryux.com"
 	},
+    "urls": {
+        "twitter": "https://twitter.com/calgaryux",
+        "facebook": "https://www.facebook.com/calgaryux/",
+        "meetup": "https://www.meetup.com/calgaryux/"
+    },
 	"production": true
 }
