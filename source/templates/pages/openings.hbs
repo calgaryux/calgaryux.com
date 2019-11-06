@@ -2,10 +2,12 @@
 title: Open Positions
 layout: interior
 norobots: true
+openings: false
 ---
 
-{{#markdown}}
+{{#if openings}}
 
+{{#markdown}}
 
 ## Venue Coordinator
 
@@ -53,3 +55,11 @@ For volunteers that want to provide support at events, we simply ask:
 		Takes 2-3 mins
 	</p>
 </div>
+
+{{else}}
+
+{{#markdown}}
+Sorry. There aren't any openings right now.
+{{/markdown}}
+
+{{/if}}
