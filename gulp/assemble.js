@@ -5,6 +5,7 @@ const config = require('./config');
 const connect = require('gulp-connect');
 const extname = require('gulp-extname');
 const markdown = require('helper-markdown');
+const date = require('helper-date');
 
 module.exports = (src, dest, opts) => {
 	opts = Object.assign({
@@ -17,6 +18,7 @@ module.exports = (src, dest, opts) => {
 
 	assemble.data(opts.data);
 	assemble.helper('markdown', markdown);
+	assemble.helper('date', date);
 	assemble.layouts(opts.layouts);
 	assemble.pages(src);
 	assemble.partials(opts.partials);
