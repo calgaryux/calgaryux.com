@@ -70,7 +70,7 @@
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "lazypipe": "^1.0.1",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "pixrem": "^3.0.2",
     "postcss-assets": "^4.1.0",
     "pre-commit": "^1.1.3",
