@@ -24,6 +24,11 @@ $block: 'cta';
 			cursor: pointer;
 			text-decoration: none;
 		}
+
+		&--emphasis {
+			background-color: $calux-red;
+			color: $white;
+		}
 	}
 
 	&__microcopy {
